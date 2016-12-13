@@ -1,8 +1,8 @@
 var express = require('express');
 var router  = express.Router();
-var fs      = require('fs');
-var multer  = require('multer');
 
+var fs       = require('fs');
+var multer   = require('multer');
 var imageDir = 'uploads/';
 var upload   = multer({"dest": imageDir});
 
